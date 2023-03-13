@@ -26,7 +26,8 @@ func main () {
 			for _, k := range keys {
 				// fmt.Printf("Character %v '%v' starts at byte position %v \n", k, k,p)
 				fmt.Printf("Character %U '%c' starts at byte position %v \n", k, k, p)
-				p= p+2
+				// p= p+2
+				p += 2 
 			}	
 			continue
 		}
